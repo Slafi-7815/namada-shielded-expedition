@@ -1,0 +1,49 @@
+[[established_account]]
+vp = "vp_user"
+threshold = 1
+public_keys = ["tpknam1qp2avm8gphrxppg9dyhdlyq6g2hj4rspjunangxphckty5wefsaw587ds8f"]
+
+[[validator_account]]
+address = "tnam1qrgu90z9a0xuc5vfndevtjdhtzr0w9kn2y7qqtec"
+vp = "vp_user"
+commission_rate = "0.05"
+max_commission_rate_change = "0.01"
+net_address = "162.55.6.163:26656"
+
+[validator_account.consensus_key]
+pk = "tpknam1qp2avm8gphrxppg9dyhdlyq6g2hj4rspjunangxphckty5wefsaw587ds8f"
+authorization = "signam1qp2xunc1zve46a9wqm7yg7vv6352ct4prr7wd2s6p2eh2pn45us7uz6rf2xj3nw549yeku74rq3fsr3hqwgjjs0gghxm3jj9a3j6zxsq6tu3qd"
+
+[validator_account.protocol_key]
+pk = "tpknam1qp2avm8gphrxppg9dyhdlyq6g2hj4rspjunangxphckty5wefsaw587ds8f"
+authorization = "signam1qp2xunc1zve46a9wqm7yg7vv6352ct4prr7wd2s6p2eh2pn45us7uz6rf2xj3nw549yeku74rq3fsr3hqwgjjs0gghxm3jj9a3j6zxsq6tu3qd"
+
+[validator_account.tendermint_node_key]
+pk = "tpknam1qp2avm8gphrxppg9dyhdlyq6g2hj4rspjunangxphckty5wefsaw587ds8f"
+authorization = "signam1qp2xunc1zve46a9wqm7yg7vv6352ct4prr7wd2s6p2eh2pn45us7uz6rf2xj3nw549yeku74rq3fsr3hqwgjjs0gghxm3jj9a3j6zxsq6tu3qd"
+
+[validator_account.eth_hot_key]
+pk = "tpknam1qp2avm8gphrxppg9dyhdlyq6g2hj4rspjunangxphckty5wefsaw587ds8f"
+authorization = "signam1qp2xunc1zve46a9wqm7yg7vv6352ct4prr7wd2s6p2eh2pn45us7uz6rf2xj3nw549yeku74rq3fsr3hqwgjjs0gghxm3jj9a3j6zxsq6tu3qd"
+
+[validator_account.eth_cold_key]
+pk = "tpknam1qp2avm8gphrxppg9dyhdlyq6g2hj4rspjunangxphckty5wefsaw587ds8f"
+authorization = "signam1qp2xunc1zve46a9wqm7yg7vv6352ct4prr7wd2s6p2eh2pn45us7uz6rf2xj3nw549yeku74rq3fsr3hqwgjjs0gghxm3jj9a3j6zxsq6tu3qd"
+
+[validator_account.metadata]
+email = "app.croco.team@gmail.com"
+description = "Let's go"
+website = "https://croco.team"
+discord_handle = "slafi"
+avatar = ""
+
+[validator_account.signatures]
+tpknam1qpmfpse3acelyrkvzvptt9506f0qqkfe0valq3h6msuhc3rz74a45sdhr3r = "signam1qzgpd5yqx4gzyqv2gv4jtwh8agtssmqupx77dgcn0dfj67e7f8vaan6r5h5ua6tzp8gh28r3lhfx5l4yqxnyuh5p5t5phlur3tp8gmcpjm9hq3"
+
+[[bond]]
+source = "tnam1qrgu90z9a0xuc5vfndevtjdhtzr0w9kn2y7qqtec"
+validator = "tnam1qrgu90z9a0xuc5vfndevtjdhtzr0w9kn2y7qqtec"
+amount = "28970"
+
+[bond.signatures]
+tpknam1qp2avm8gphrxppg9dyhdlyq6g2hj4rspjunangxphckty5wefsaw587ds8f = "signam1qp2xunc1zve46a9wqm7yg7vv6352ct4prr7wd2s6p2eh2pn45us7uz6rf2xj3nw549yeku74rq3fsr3hqwgjjs0gghxm3jj9a3j6zxsq6tu3qd"
